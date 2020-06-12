@@ -1,6 +1,6 @@
 digraph model_graph {
   // Dotfile by Django-Extensions graph_models
-  // Created: 2020-06-11 23:54
+  // Created: 2020-06-12 00:14
   // Cli Options: -a
 
   fontname = "Roboto"
@@ -306,7 +306,7 @@ digraph model_graph {
     <TR><TD ALIGN="LEFT" BORDER="0">
     <FONT FACE="Roboto"><B>id</B></FONT>
     </TD><TD ALIGN="LEFT">
-    <FONT FACE="Roboto"><B>AutoField</B></FONT>
+    <FONT FACE="Roboto"><B>UUIDField</B></FONT>
     </TD></TR>
   
   
