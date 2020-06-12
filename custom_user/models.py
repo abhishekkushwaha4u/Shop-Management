@@ -31,7 +31,7 @@ class User(AbstractBaseUser):
         (MANAGER, "celebrity"),
         (DEVELOPER, "developer"),
     )
-
+    id = models.UUIDField(default=uuid.uuid4, primary_key=True)
     email = models.EmailField(verbose_name=_("Email Address"), unique=True)
     user_type = models.PositiveSmallIntegerField(
         choices=USER_TYPE_CHOICES, blank=False, null=False
